@@ -1,0 +1,23 @@
+# Node.js / React
+node_modules/
+.env
+build/
+
+# Python / FastAPI
+server/__pycache__/
+server/.env
+server/.venv/
+server/venv/
+server/*.pyc
+server/*.pyo
+server/.pytest_cache/
+server/.mypy_cache/
+
+# YOLOv5
+server/yolov5/*.pt
+server/yolov5/.git/
+server/yolov5/__pycache__/
+
+# OS generated files
+.DS_Store
+Thumbs.db
